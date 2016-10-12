@@ -48,6 +48,7 @@ section {
   background-color: #0B0B61;
   color: white;
 }
+
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
@@ -62,5 +63,8 @@ section {
     float: left;
     width: 50%
   }
+   div.col-md-6>section {height: 220px;} 
   }
+
+
 
