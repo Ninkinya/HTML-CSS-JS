@@ -19,4 +19,47 @@ body {
 
 .navbar-brand a:hover, div.navbar-brand a:focus {
   text-decoration: none;
+  color: black;
 }
+
+/* Button*/ 
+.navbar-toggle {
+  border: 1px solid black;
+ /*  background-color: #04B486;*/
+}
+
+.navbar-toggle span {border: 1px solid black;}
+
+/*Menu*/
+#collapsable-nav li {
+  background: #F5FAEF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+} 
+#collapsable-nav hr {
+  height: 5px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: #D0F5A9;
+}
+#collapsable-nav a {
+  color: #333;
+}
+/*End Menu*/
+
+/*Body*/
+h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+section>div.col-xs-12 {padding: 0;}
+
+#Chicken p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+ 
