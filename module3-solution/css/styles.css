@@ -9,6 +9,8 @@ body {
   border: 0;
 }
 
+div.navbar-header {padding-left: 15px;}
+
 .navbar-brand h1 { /* Restaurant name */
   color: #151515;
   font-weight: bold;
@@ -55,7 +57,9 @@ h2 {
   margin-bottom: 25px;
 }
 
-section>div.col-xs-12 {padding: 0;}
+section.container > div {
+  background: #E6E6E6;
+}
 
 #Chicken p {
   font-size: 1.1em;
